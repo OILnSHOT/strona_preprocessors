@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preprocessors</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div
+      class="conatiner m-0 p-0"
+      style="
+        box-sizing: border-box;
+        font-family: Poppins, sans-serif;
+        width: 100%;
+      "
+    >
+      <section class="menu">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <header class="container-fluid">
+            <a class="navbar-brand" href="index.html">Preprocessors</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <section class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </section>
+          </header>
+        </nav>
+      </section>
+      <main
+        class="main d-flex justify-content-center align-items-center flex-column"
+        style="
+          background: url(zdjecia/baner_kodowanie.png);
+          width: 100%;
+          min-height: 100vh;
+          background-size: cover;
+        "
+      >
+        <p
+          class="main__baner"
+          style="
+            color: #f0f0f0;
+            font-family: Poppins, sans-serif;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            -webitk-backdrop-filter: blur(5px);
+            backdrop-filter: blur(2px);
+          "
+        >
+          css preprocessors
+        </p>
+      </main>
+
+      <section class="3cards">
+        <article class="card-group">
+          <section class="card">
+            <div class="card-body">
+              <h5 class="card-title fs-3">Sass</h5>
+              <p class="card-text fs-5">
+                Sass is a preprocessor that allows you to include such in CSS
+                things like variables, nesting, mixing, inheritance etc. This is
+                a superset of css, so any code css is also valid. It supports
+                two kinds of syntax, scss and sass. SCSS is a bit more rigorous
+                because it contains braces and a semicolon, while SASS is
+                heavily based on appropriate indents.
+              </p>
+            </div>
+          </section>
+          <section class="card">
+            <div class="card-body">
+              <h5 class="card-title fs-3">Less</h5>
+              <p class="card-text fs-5">
+                Less is a CSS preprocessor that makes it easy to customize,
+                manage and reusing style sheets on the website. Less is a CSS
+                and dynamic extension a style sheet language that can be run on
+                the client or server side.
+              </p>
+            </div>
+          </section>
+          <section class="card">
+            <div class="card-body">
+              <h5 class="card-title fs-3">Stylus</h5>
+              <p class="card-text fs-5">
+                Stylus is a dynamic style sheet preprocessor language, which is
+                compiled in cascading style sheets (CSS). It was designed on the
+                basis of Sass and LESS. He is regarded as the fourth most used
+                CSS preprocessor syntax. It was created by TJ Holowaychuk,
+                former Node.js developer and creator of the Luna language. It is
+                written in JADE and Node.js.
+              </p>
+            </div>
+          </section>
+        </article>
+      </section>
+      <section class="karuzela">
+        <article
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <section class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </section>
+          <section class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="zdjecia/karuzela1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="zdjecia/karuzela2.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="zdjecia/karuzela3.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </section>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </article>
+      </section>
+      <section class="card_long">
+        <article class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title fs-3">What is preprocessor?</h5>
+            <p class="card-text fs-5">
+              In computer science, a preprocessor is a program that processes
+              its input data to produce output that is used as input to another
+              program. The output is said to be a preprocessed form of the input
+              data, which is often used by some subsequent programs like
+              compilers. The amount and kind of processing done depends on the
+              nature of the preprocessor; some preprocessors are only capable of
+              performing relatively simple textual substitutions and macro
+              expansions, while others have the power of full-fledged
+              programming languages. A common example from computer programming
+              is the processing performed on source code before the next step of
+              compilation. In some computer languages there is a phase of
+              translation known as preprocessing. It can also include macro
+              processing, file inclusion and language extensions.
+            </p>
+          </div>
+        </article>
+      </section>
+      <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <section class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+
+            <!-- Twitter -->
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+
+            <!-- Google -->
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+
+            <!-- Instagram -->
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+
+            <!-- Linkedin -->
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+
+            <!-- Github -->
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+        </section>
+
+        <section
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2021 Copyright:
+          <a class="text-white text-decoration-none">Oliwer Bartkowiak</a>
+        </section>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

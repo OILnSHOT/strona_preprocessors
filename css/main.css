@@ -1,0 +1,14 @@
+.main__baner {
+  font-size: 60px;
+}
+.carousel-item {
+  height: 40vh;
+}
+@media screen and (max-width: 800px) {
+  .carousel-item {
+    height: 25vh;
+  }
+  .main__baner {
+    font-size: 30px;
+  }
+}
